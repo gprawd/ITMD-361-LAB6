@@ -1,78 +1,74 @@
+h1 {
+    float: left;
+    padding: 0 20% 0 0;
+}
 
+#header-container {
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
 
-    h1 {
-        float: left;
-        padding: 0 20% 0 0;
-    }
-    #header-container {
-        position: relative;
-        left: 50%;
-        right: 50%;
-    }
-    
-    #navbar-container {
-        float: left;
-        width: 100%;
-        position: relative;
-        text-align: center;
-    }
-    
-     #main-navbar {
-        background-color: blue;
-        overflow: hidden;
-    }   
-    #main-navbar ul {
-        list-style-type: none;
-        display: inline-block;
-        vertical-align: top;   
-    }
-    
-    #main-navbar ul li {
-        float: left;
-    }
-    
-    #main-navbar ul li a {
-        display: block;
-        color: #fff;
-        text-decoration: none;
-        padding: 15px;
-    }
-    
-    #main-navbar ul li a:hover {
-        background-color: #000;
-    }
-    
-    #main-navbar #onpage {
-      text-decoration: underline overline;
-      background-color: none;
-    }
-    
-    #sidebar-container {
-        position: fixed;
-        height: 100%;
-        right: 0%;
-        width: 20%;
-        background-color: red;
-        list-style-type: none;
-        text-align: center;
-        padding: 0;
-        display: block;
-        
-    }
-    
-    #sidebar li {  
-        list-style-type: none;
-        padding: 15px 0;
-    
-    }
-    
-    #sidebar li a {
-        color: #fff;
-        text-decoration: none;
-        
-    }
-    
-    #sidebar li a:hover {
-        background-color: #000;
-        padding: 0;
-    }
+#navbar-container {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+    #main-navbar {
+    background-color: blue;
+    overflow: hidden;
+}   
+#main-navbar ul {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;   
+}
+
+#main-navbar ul li {
+    float: left;
+}
+
+#main-navbar ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#main-navbar ul li a:hover {
+    background-color: #000;
+}
+
+#main-navbar #onpage {
+    text-decoration: underline overline;
+    background-color: none;
+}
+
+#sidebar-container {
+    position: fixed;
+    height: 100%;
+    right: 0%;
+    width: 20%;
+    background-color: red;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: block;    
+}
+
+#sidebar li {  
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+#sidebar li a {
+    color: #fff;
+    text-decoration: none;   
+}
+
+#sidebar li a:hover {
+    background-color: #000;
+    padding: 0;
+}

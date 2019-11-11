@@ -62,15 +62,17 @@
     
     #sidebar li {  
         list-style-type: none;
+        padding: 15px 0;
     
     }
     
     #sidebar li a {
         color: #fff;
         text-decoration: none;
-        padding: 15px 0;
+        
     }
     
     #sidebar li a:hover {
-        text-decoration: underline;
+        background-color: #000;
+        padding: 0;
     }

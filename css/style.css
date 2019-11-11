@@ -1,6 +1,9 @@
 
 
-
+    h1 {
+        float: left;
+        padding: 0 20% 0 0;
+    }
     #header-container {
         position: relative;
         left: 50%;
@@ -44,4 +47,30 @@
       background-color: none;
     }
     
-
+    #sidebar-container {
+        position: fixed;
+        height: 100%;
+        right: 0%;
+        width: 20%;
+        background-color: red;
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        display: block;
+        
+    }
+    
+    #sidebar li {  
+        list-style-type: none;
+    
+    }
+    
+    #sidebar li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 15px 0;
+    }
+    
+    #sidebar li a:hover {
+        text-decoration: underline;
+    }

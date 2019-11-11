@@ -1,1 +1,47 @@
 
+
+
+    #header-container {
+        position: relative;
+        left: 50%;
+        right: 50%;
+    }
+    
+    #navbar-container {
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    
+     #main-navbar {
+        background-color: blue;
+        overflow: hidden;
+    }   
+    #main-navbar ul {
+        list-style-type: none;
+        display: inline-block;
+        vertical-align: top;   
+    }
+    
+    #main-navbar ul li {
+        float: left;
+    }
+    
+    #main-navbar ul li a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 15px;
+    }
+    
+    #main-navbar ul li a:hover {
+        background-color: #000;
+    }
+    
+    #main-navbar #onpage {
+      text-decoration: underline overline;
+      background-color: none;
+    }
+    
+
